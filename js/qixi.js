@@ -141,7 +141,7 @@ var Qixi = function() {
 		setTimeout(function() {
 			girl.rotate();
 			boy.rotate(function() {
-				logo.run();
+				// logo.run();
 				snowflake()
 			})
 		}, confi.setTime.waitRotate)
